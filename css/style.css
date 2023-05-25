@@ -1,0 +1,108 @@
+/*! Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------HEADER------------------------------------------------*/
+
+header{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+    margin: 18px 0px 15px 20px;   
+}
+
+.opcion1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container-fluid form input{
+    width: 400px;
+}
+
+.container-fluid form button{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    transition: 1s;
+}
+.container-fluid form button:hover{
+    background-color: red;
+    border: 2px solid red;
+    color:black;
+    
+}
+
+.carrito{
+    width: 45px;
+    height: 45px;
+}
+
+.agregarProductos{
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+
+
+
+/*----------------whatsapp fijo---------------*/
+.fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fixed a img{
+    width: 60px;
+    height: 60px;
+}
+
+/*--------------------------------------------------FOOTER---------------------------------------------*/
+
+
+.pie{
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+
+.redes div {
+    margin-left: 80px;
+}
+
+.redes h5{
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.redes div a img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.redes h6{
+    margin: 50px;
+}
