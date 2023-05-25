@@ -80,8 +80,16 @@ class CarritoController{
     }
 
     agregar(producto){
-        //si ya existia en el carrito, hay que aumentar en 1 la cantidad.
-        this.listaCarrito.push(producto)
+        let flag = false;
+        for (let i=0; i<this.listaCarrito.length; i++){
+            if(this.listaCarrito[i].id == producto.id){
+                this.listaCarrito[i].cantidad += 1;
+                flag = true
+            }
+        }
+        if(flag == false){
+            this.listaCarrito.push(producto)
+        }
     }
 
     limpiarCarritoStorage(){
