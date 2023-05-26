@@ -1,0 +1,14 @@
+[
+    {"id":1, "nombre": "Artillery HORNET", "precio":100000, "stock":10, "img":"./img/impreAHornet.jpg", "alt":"Impresora 3d 1"},
+    {"id":2, "nombre":"Creality CR-10 MAX", "precio":140000, "stock":10, "img":"./img/ImpreCCR10MAX.jpg", "alt":"Impresora 3d 2"},
+    {"id":3, "nombre":"Creality CR-30 3D Print Mill", "precio":200000, "stock":10, "img":"./img/ImpreCCR303dPrintMill.jpg", "alt":"Impresora 3d 3"},
+    {"id":4, "nombre":"Creality ENDER-5 PLUS", "precio":300000, "stock":10, "img":"./img/impreCEnder5plus.jpg", "alt":"Impresora 3d 4"},
+    {"id":5, "nombre":"Creality ENDER-6", "precio":350000, "stock":10, "img":"./img/impreCEnder6.jpg", "alt":"Impresora 3d 5"},
+    {"id":6, "nombre":"Artillery Genius Pro", "precio":150000, "stock":10, "img":"./img/impresora3d1.png", "alt":"Impresora 3d 6"},
+    {"id":7, "nombre":"Creality Ender 6 Diy Kit Fdm", "precio":280000, "stock":10, "img":"./img/impresora3d2.jpg", "alt":"Impresora 3d 7"},
+    {"id":8, "nombre":"Hellbot Magna 2 300 Dykit", "precio":260000, "stock":10, "img":"./img/impresora3d3.jpg", "alt":"Impresora 3d 8"},
+    {"id":9, "nombre":"Canon Pixma G3110 con wifi", "precio":155000, "stock":10, "img":"./img/imprePixmaG3110.webp", "alt":"Impresora 1"},
+    {"id":10, "nombre":"HP Smart Tank 515 con wifi", "precio":130000, "stock":10, "img":"./img/impreSmartTank515.webp", "alt":"Impresora 2"},
+    {"id":11, "nombre":"Epson EcoTank L3210", "precio":194000, "stock":10, "img":"./img/impreEcoTankL3210.webp", "alt":"Impresora 3"},
+    {"id":12, "nombre":"Brother HL1212W con wifi", "precio":125000, "stock":10, "img":"./img/impreHL1212W.webp", "alt":"Impresora 4"}
+]

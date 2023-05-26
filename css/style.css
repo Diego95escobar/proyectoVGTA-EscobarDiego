@@ -62,6 +62,20 @@ header{
 }
 
 
+.totalCarrito{
+    padding-left: 20px;
+}
+
+.totalCarrito p{
+    font-size: 18px;
+}
+
+.tacho{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
 
 
 /*----------------whatsapp fijo---------------*/
